@@ -61,10 +61,6 @@ const getInput = async () => {
 		
 			let output = "The lowest three integers are ";
 			let setSize = integers.size;
-			
-			for(let i=setSize;i>setSize;i--){
-				integers.delete(Math.max(...integers));
-			}
 		
 			for(let i=0;i<2;i++){
 				output += " "+Math.min(...integers)+",";
